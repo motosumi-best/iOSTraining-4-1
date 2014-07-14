@@ -19,6 +19,14 @@
 		CBACA5CA1972B7B500321208 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBACA5B21972B7B500321208 /* UIKit.framework */; };
 		CBACA5D21972B7B500321208 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CBACA5D01972B7B500321208 /* InfoPlist.strings */; };
 		CBACA5D41972B7B500321208 /* HomeWork4_1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBACA5D31972B7B500321208 /* HomeWork4_1Tests.m */; };
+		CBACA5E01972B81A00321208 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBACA5DE1972B81A00321208 /* ViewController.m */; };
+		CBACA5E11972B81A00321208 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBACA5DF1972B81A00321208 /* ViewController.xib */; };
+		CBACA5E51972BBB700321208 /* CtTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CBACA5E31972BBB700321208 /* CtTableViewCell.m */; };
+		CBACA5E61972BBB700321208 /* CtTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBACA5E41972BBB700321208 /* CtTableViewCell.xib */; };
+		CBACA5EB1972BBE400321208 /* 1.JPG in Resources */ = {isa = PBXBuildFile; fileRef = CBACA5E81972BBE400321208 /* 1.JPG */; };
+		CBACA5EC1972BBE400321208 /* fukidashi_left.png in Resources */ = {isa = PBXBuildFile; fileRef = CBACA5E91972BBE400321208 /* fukidashi_left.png */; };
+		CBACA5ED1972BBE400321208 /* fukidashi_right.png in Resources */ = {isa = PBXBuildFile; fileRef = CBACA5EA1972BBE400321208 /* fukidashi_right.png */; };
+		CBACA5EF1972BE5C00321208 /* dataProperty.plist in Resources */ = {isa = PBXBuildFile; fileRef = CBACA5EE1972BE5C00321208 /* dataProperty.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +56,16 @@
 		CBACA5CF1972B7B500321208 /* HomeWork4-1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HomeWork4-1Tests-Info.plist"; sourceTree = "<group>"; };
 		CBACA5D11972B7B500321208 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CBACA5D31972B7B500321208 /* HomeWork4_1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeWork4_1Tests.m; sourceTree = "<group>"; };
+		CBACA5DD1972B81A00321208 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CBACA5DE1972B81A00321208 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CBACA5DF1972B81A00321208 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		CBACA5E21972BBB700321208 /* CtTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CtTableViewCell.h; sourceTree = "<group>"; };
+		CBACA5E31972BBB700321208 /* CtTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CtTableViewCell.m; sourceTree = "<group>"; };
+		CBACA5E41972BBB700321208 /* CtTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CtTableViewCell.xib; sourceTree = "<group>"; };
+		CBACA5E81972BBE400321208 /* 1.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.JPG; sourceTree = "<group>"; };
+		CBACA5E91972BBE400321208 /* fukidashi_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fukidashi_left.png; sourceTree = "<group>"; };
+		CBACA5EA1972BBE400321208 /* fukidashi_right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fukidashi_right.png; sourceTree = "<group>"; };
+		CBACA5EE1972BE5C00321208 /* dataProperty.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = dataProperty.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,10 +125,17 @@
 		CBACA5B41972B7B500321208 /* HomeWork4-1 */ = {
 			isa = PBXGroup;
 			children = (
+				CBACA5E71972BBD000321208 /* resource */,
 				CBACA5BD1972B7B500321208 /* AppDelegate.h */,
 				CBACA5BE1972B7B500321208 /* AppDelegate.m */,
 				CBACA5C01972B7B500321208 /* Images.xcassets */,
 				CBACA5B51972B7B500321208 /* Supporting Files */,
+				CBACA5DD1972B81A00321208 /* ViewController.h */,
+				CBACA5DE1972B81A00321208 /* ViewController.m */,
+				CBACA5DF1972B81A00321208 /* ViewController.xib */,
+				CBACA5E21972BBB700321208 /* CtTableViewCell.h */,
+				CBACA5E31972BBB700321208 /* CtTableViewCell.m */,
+				CBACA5E41972BBB700321208 /* CtTableViewCell.xib */,
 			);
 			path = "HomeWork4-1";
 			sourceTree = "<group>";
@@ -119,6 +144,7 @@
 			isa = PBXGroup;
 			children = (
 				CBACA5B61972B7B500321208 /* HomeWork4-1-Info.plist */,
+				CBACA5EE1972BE5C00321208 /* dataProperty.plist */,
 				CBACA5B71972B7B500321208 /* InfoPlist.strings */,
 				CBACA5BA1972B7B500321208 /* main.m */,
 				CBACA5BC1972B7B500321208 /* HomeWork4-1-Prefix.pch */,
@@ -142,6 +168,16 @@
 				CBACA5D01972B7B500321208 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CBACA5E71972BBD000321208 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				CBACA5E81972BBE400321208 /* 1.JPG */,
+				CBACA5E91972BBE400321208 /* fukidashi_left.png */,
+				CBACA5EA1972BBE400321208 /* fukidashi_right.png */,
+			);
+			name = resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,7 +256,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBACA5B91972B7B500321208 /* InfoPlist.strings in Resources */,
+				CBACA5E11972B81A00321208 /* ViewController.xib in Resources */,
+				CBACA5ED1972BBE400321208 /* fukidashi_right.png in Resources */,
+				CBACA5EF1972BE5C00321208 /* dataProperty.plist in Resources */,
+				CBACA5EB1972BBE400321208 /* 1.JPG in Resources */,
+				CBACA5E61972BBB700321208 /* CtTableViewCell.xib in Resources */,
 				CBACA5C11972B7B500321208 /* Images.xcassets in Resources */,
+				CBACA5EC1972BBE400321208 /* fukidashi_left.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,7 +281,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBACA5E01972B81A00321208 /* ViewController.m in Sources */,
 				CBACA5BF1972B7B500321208 /* AppDelegate.m in Sources */,
+				CBACA5E51972BBB700321208 /* CtTableViewCell.m in Sources */,
 				CBACA5BB1972B7B500321208 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
